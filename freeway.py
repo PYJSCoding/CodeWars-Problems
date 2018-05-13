@@ -12,3 +12,5 @@ def freeway_game(dist_km_to_exit, my_speed_kph, other_cars):
                 points = points - 1
             
     return points
+
+freeway_game(50.0, 130.0, [[-1.0, 120.0], [-1.5, 120.0]])
