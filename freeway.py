@@ -7,8 +7,8 @@ def freeway_game(dist_km_to_exit, my_speed_kph, other_cars):
           if  How_long_togo < OtherCar_toExit:
                points = points + 1
         else:
-            Other_how_toCatch = ((dist_km_to_exit/car[1]) * 60) + car[0]
-            if Other_how_toCatch < How_long_togo:
+            Other_howFar_toCatch = ((dist_km_to_exit/car[1]) * 60) + car[0]
+            if Other_howFar_toCatch < How_long_togo:
                 points = points - 1
             
     return points
